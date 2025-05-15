@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: netbox_demo
+Version: 1.0.0
+Summary: Plugin with Changelog en Eventlog functionality
+Author-email: BartVdB <bart@zimmo.be>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/BartZimmo/Netbox_Plugin_Demo.git
+Project-URL: Bug Tracker, https://github.com/BartZimmo/Netbox_Plugin_Demo/issues
+Keywords: netbox,netbox_demo,demo
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+## netbox-demo
+
+Learn myself to create a plugin with Changelog en Eventlog functionality

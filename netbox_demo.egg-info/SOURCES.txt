@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+netbox_demo/__init__.py
+netbox_demo.egg-info/PKG-INFO
+netbox_demo.egg-info/SOURCES.txt
+netbox_demo.egg-info/dependency_links.txt
+netbox_demo.egg-info/top_level.txt
