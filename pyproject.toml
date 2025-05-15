@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netbox-demo"
+version = "1.0.0"
+authors = [
+  { name="BartVdB", email="bart@zimmo.be" },
+]
+description = "Plugin with Changelog en Eventlog functionality"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["netbox", "netbox-demo", "demo"]
+
+[project.urls]
+"Homepage" = "https://github.com/BartZimmo/Netbox_Plugin_Demo.git"
+"Bug Tracker" = "https://github.com/BartZimmo/Netbox_Plugin_Demo/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["demo*"]
+
+[tool.ruff]
+exclude = [
+    "netbox_demo/migrations",
+]
